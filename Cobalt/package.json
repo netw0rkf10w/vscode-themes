@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Cobalt",
+	"displayName": "Gedit Cobalt Theme",
+	"description": "Cobalt Theme based on gerane's Colbalt them and Cobalt Gedit Theme",
+	"version": "0.0.1",
+	"publisher": "netw0rkf10w",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"homepage": "https://github.com/netw0rkf10w/vscode-themes",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/netw0rkf10w/vscode-themes"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cobalt-Gedit",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Cobalt-Gedit.tmTheme"
+			}
+		]
+	}
+}
